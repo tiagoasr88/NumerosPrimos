@@ -7,9 +7,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7ADA8686-ABD
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{082786B2-F6D1-4B2C-B5AA-FD10CAA540A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumerosPrimos.Test", "test\NumerosPrimos.Test\NumerosPrimos.Test.csproj", "{CDFBE48F-B895-4632-9CBA-FE14FA225048}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumerosPrimos.Test", "test\NumerosPrimos.Test\NumerosPrimos.Test.csproj", "{CDFBE48F-B895-4632-9CBA-FE14FA225048}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumerosPrimos.Application", "src\NumerosPrimos.Application\NumerosPrimos.Application.csproj", "{ED753407-F277-4642-8816-1A7DCB19051E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumerosPrimos.Application", "src\NumerosPrimos.Application\NumerosPrimos.Application.csproj", "{ED753407-F277-4642-8816-1A7DCB19051E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumerosPrimos.Service", "NumerosPrimos.Service\NumerosPrimos.Service.csproj", "{9C111E51-9D01-43F7-A709-01D407E18779}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +27,10 @@ Global
 		{ED753407-F277-4642-8816-1A7DCB19051E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED753407-F277-4642-8816-1A7DCB19051E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED753407-F277-4642-8816-1A7DCB19051E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C111E51-9D01-43F7-A709-01D407E18779}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C111E51-9D01-43F7-A709-01D407E18779}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C111E51-9D01-43F7-A709-01D407E18779}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C111E51-9D01-43F7-A709-01D407E18779}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{CDFBE48F-B895-4632-9CBA-FE14FA225048} = {082786B2-F6D1-4B2C-B5AA-FD10CAA540A8}
 		{ED753407-F277-4642-8816-1A7DCB19051E} = {7ADA8686-ABD5-4BB9-A9A8-F933A59886A5}
+		{9C111E51-9D01-43F7-A709-01D407E18779} = {7ADA8686-ABD5-4BB9-A9A8-F933A59886A5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FD09895D-5151-4563-BB31-87C7774277BE}
