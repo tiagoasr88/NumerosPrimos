@@ -18,3 +18,9 @@ Divisores Primos: 1 3 5
 * Disponibilidade 
 * Resiliência 
 * Robustez
+
+_____________________
+
+## Notas
+- Para a segunda etapa separei o código em classes de serviço. Acredito que o tamanho do projeto não chega a justificar uma segmentação maior em componentes, como criação de Domain, Infra etc.
+- A reutilização dos serviços poderia ser feita via componente diretamente (distribuído via NuGet, por exemplo) ou através de um serviço web.
